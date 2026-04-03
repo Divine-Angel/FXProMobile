@@ -1,17 +1,17 @@
 <!DOCTYPE html>
-<!-- saved from url=(0093)file:///C:/Users/joshu/Downloads/FXProMobile/FXPro%20%E2%80%93%20Currency%20Intelligence.html -->
-<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-  
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
-  <meta name="theme-color" content="#070B14">
-  <meta name="apple-mobile-web-app-capable" content="yes">
-  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
-  <meta name="apple-mobile-web-app-title" content="FXPro">
-  <meta name="description" content="Real-time currency converter for small businesses and freelancers.">
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"/>
+  <meta name="theme-color" content="#070B14"/>
+  <meta name="apple-mobile-web-app-capable" content="yes"/>
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
+  <meta name="apple-mobile-web-app-title" content="FXPro"/>
+  <meta name="description" content="Real-time currency converter for small businesses and freelancers."/>
   <title>FXPro – Currency Intelligence</title>
-  <link rel="manifest" href="https://divine-angel.github.io/FXProMobile/manifest.json"/>
-  <link rel="apple-touch-icon" href="file:///C:/Users/joshu/AppData/Local/Temp/a8b50c84-b16d-4a26-87bb-73bc61dffa70_FXProMobile_Code.zip.a70/FXProMobile/icons/icon-192.png">
-  <link href="./FXPro – Currency Intelligence_files/css2" rel="stylesheet">
+  <link rel="manifest" href="manifest.json"/>
+  <link rel="apple-touch-icon" href="icons/icon-192.png"/>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;600;700;800&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet"/>
   <style>
 :root{--bg-deep:#070B14;--bg-surface:#0F1521;--bg-card:#141D2B;--bg-raised:#1C2738;--bg-hover:#243044;--mint:#00D4AA;--mint-dim:#00A888;--gold:#FFB700;--coral:#FF5A5A;--txt-primary:#EEF2FF;--txt-second:#8892A4;--txt-muted:#4A5568;--border:rgba(255,255,255,.06);--radius-sm:10px;--radius-md:16px;--radius-lg:22px;--shadow:0 8px 32px rgba(0,0,0,.55);--t:.22s cubic-bezier(.4,0,.2,1)}
 *,*::before,*::after{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent}
@@ -112,7 +112,7 @@ html,body{height:100%;background:var(--bg-deep);color:var(--txt-primary);font-fa
     <div class="live-pill" id="livePill"><div class="live-dot"></div>LIVE</div>
   </header>
   <div class="install-banner" id="installBanner">
-    <div style="font-size:26px"></div>
+    <div style="font-size:26px">📲</div>
     <div class="install-banner-text">
       <div class="install-banner-title">Install FXPro</div>
       <div class="install-banner-sub">Add to home screen for instant access</div>
@@ -121,59 +121,59 @@ html,body{height:100%;background:var(--bg-deep);color:var(--txt-primary);font-fa
   </div>
   <main class="scroll-area" id="mainScroll">
 
-    
+    <!-- CONVERTER PAGE -->
     <div class="page active" id="page-convert">
       <div class="hero">
         <div class="hero-label">Real-Time Exchange Rates</div>
         <div class="hero-title">Convert with <span>confidence.</span></div>
         <div class="hero-sub">Built for freelancers &amp; small businesses</div>
       </div>
-      <div class="ticker-wrap"><div class="ticker-inner" id="tickerInner"><span class="ticker-item"><span class="ticker-code">USD/TTD</span><span class="ticker-rate">6.7648</span><span class="ticker-chg dn">-0.80%</span></span><span class="ticker-item"><span class="ticker-code">USD/EUR</span><span class="ticker-rate">0.8664</span><span class="ticker-chg up">+0.01%</span></span><span class="ticker-item"><span class="ticker-code">USD/GBP</span><span class="ticker-rate">0.7558</span><span class="ticker-chg dn">-0.53%</span></span><span class="ticker-item"><span class="ticker-code">EUR/TTD</span><span class="ticker-rate">7.8079</span><span class="ticker-chg dn">-0.28%</span></span><span class="ticker-item"><span class="ticker-code">GBP/TTD</span><span class="ticker-rate">8.9505</span><span class="ticker-chg up">+0.56%</span></span><span class="ticker-item"><span class="ticker-code">USD/XCD</span><span class="ticker-rate">2.7000</span><span class="ticker-chg up">+0.73%</span></span><span class="ticker-item"><span class="ticker-code">USD/CAD</span><span class="ticker-rate">1.3917</span><span class="ticker-chg up">+0.63%</span></span><span class="ticker-item"><span class="ticker-code">USD/JPY</span><span class="ticker-rate">159.4308</span><span class="ticker-chg up">+0.58%</span></span><span class="ticker-item"><span class="ticker-code">USD/TTD</span><span class="ticker-rate">6.7648</span><span class="ticker-chg dn">-0.80%</span></span><span class="ticker-item"><span class="ticker-code">USD/EUR</span><span class="ticker-rate">0.8664</span><span class="ticker-chg up">+0.01%</span></span><span class="ticker-item"><span class="ticker-code">USD/GBP</span><span class="ticker-rate">0.7558</span><span class="ticker-chg dn">-0.53%</span></span><span class="ticker-item"><span class="ticker-code">EUR/TTD</span><span class="ticker-rate">7.8079</span><span class="ticker-chg dn">-0.28%</span></span><span class="ticker-item"><span class="ticker-code">GBP/TTD</span><span class="ticker-rate">8.9505</span><span class="ticker-chg up">+0.56%</span></span><span class="ticker-item"><span class="ticker-code">USD/XCD</span><span class="ticker-rate">2.7000</span><span class="ticker-chg up">+0.73%</span></span><span class="ticker-item"><span class="ticker-code">USD/CAD</span><span class="ticker-rate">1.3917</span><span class="ticker-chg up">+0.63%</span></span><span class="ticker-item"><span class="ticker-code">USD/JPY</span><span class="ticker-rate">159.4308</span><span class="ticker-chg up">+0.58%</span></span></div></div>
+      <div class="ticker-wrap"><div class="ticker-inner" id="tickerInner"></div></div>
       <div class="amount-card">
         <div class="card-label">Amount</div>
         <div class="amount-row">
           <div class="currency-sym" id="currSym">$</div>
-          <input class="amount-input" id="amountInput" type="number" inputmode="decimal" placeholder="0" value="1000" min="0" autocomplete="off">
+          <input class="amount-input" id="amountInput" type="number" inputmode="decimal" placeholder="0" value="1000" min="0" autocomplete="off"/>
         </div>
         <div class="amount-underline"></div>
       </div>
       <div class="card">
         <div class="card-label">Exchange Pair</div>
         <div class="pair-row">
-          <select class="currency-select" id="fromSelect"><option value="AED">AED – UAE Dirham</option><option value="ARS">ARS – Argentine Peso</option><option value="AUD">AUD – Australian Dollar</option><option value="BBD">BBD – Barbadian Dollar</option><option value="BRL">BRL – Brazilian Real</option><option value="BSD">BSD – Bahamian Dollar</option><option value="CAD">CAD – Canadian Dollar</option><option value="CHF">CHF – Swiss Franc</option><option value="CLP">CLP – Chilean Peso</option><option value="CNY">CNY – Chinese Yuan</option><option value="COP">COP – Colombian Peso</option><option value="CZK">CZK – Czech Koruna</option><option value="DKK">DKK – Danish Krone</option><option value="DOP">DOP – Dominican Peso</option><option value="EGP">EGP – Egyptian Pound</option><option value="EUR">EUR – Euro</option><option value="GBP">GBP – British Pound</option><option value="GHS">GHS – Ghanaian Cedi</option><option value="GYD">GYD – Guyanese Dollar</option><option value="HKD">HKD – Hong Kong Dollar</option><option value="HUF">HUF – Hungarian Forint</option><option value="IDR">IDR – Indonesian Rupiah</option><option value="ILS">ILS – Israeli Shekel</option><option value="INR">INR – Indian Rupee</option><option value="JMD">JMD – Jamaican Dollar</option><option value="JPY">JPY – Japanese Yen</option><option value="KRW">KRW – South Korean Won</option><option value="MXN">MXN – Mexican Peso</option><option value="MYR">MYR – Malaysian Ringgit</option><option value="NGN">NGN – Nigerian Naira</option><option value="NOK">NOK – Norwegian Krone</option><option value="NZD">NZD – New Zealand Dollar</option><option value="PEN">PEN – Peruvian Sol</option><option value="PHP">PHP – Philippine Peso</option><option value="PKR">PKR – Pakistani Rupee</option><option value="PLN">PLN – Polish Zloty</option><option value="QAR">QAR – Qatari Riyal</option><option value="RON">RON – Romanian Leu</option><option value="RUB">RUB – Russian Ruble</option><option value="SAR">SAR – Saudi Riyal</option><option value="SEK">SEK – Swedish Krona</option><option value="SGD">SGD – Singapore Dollar</option><option value="THB">THB – Thai Baht</option><option value="TRY">TRY – Turkish Lira</option><option value="TTD">TTD – Trinidad &amp; Tobago Dollar</option><option value="UAH">UAH – Ukrainian Hryvnia</option><option value="USD">USD – US Dollar</option><option value="XCD">XCD – Eastern Caribbean Dollar</option><option value="ZAR">ZAR – South African Rand</option><option value="AED">AED – UAE Dirham</option><option value="ARS">ARS – Argentine Peso</option><option value="AUD">AUD – Australian Dollar</option><option value="BBD">BBD – Barbadian Dollar</option><option value="BRL">BRL – Brazilian Real</option><option value="BSD">BSD – Bahamian Dollar</option><option value="CAD">CAD – Canadian Dollar</option><option value="CHF">CHF – Swiss Franc</option><option value="CLP">CLP – Chilean Peso</option><option value="CNY">CNY – Chinese Yuan</option><option value="COP">COP – Colombian Peso</option><option value="CZK">CZK – Czech Koruna</option><option value="DKK">DKK – Danish Krone</option><option value="DOP">DOP – Dominican Peso</option><option value="EGP">EGP – Egyptian Pound</option><option value="EUR">EUR – Euro</option><option value="GBP">GBP – British Pound</option><option value="GHS">GHS – Ghanaian Cedi</option><option value="GYD">GYD – Guyanese Dollar</option><option value="HKD">HKD – Hong Kong Dollar</option><option value="HUF">HUF – Hungarian Forint</option><option value="IDR">IDR – Indonesian Rupiah</option><option value="ILS">ILS – Israeli Shekel</option><option value="INR">INR – Indian Rupee</option><option value="JMD">JMD – Jamaican Dollar</option><option value="JPY">JPY – Japanese Yen</option><option value="KRW">KRW – South Korean Won</option><option value="MXN">MXN – Mexican Peso</option><option value="MYR">MYR – Malaysian Ringgit</option><option value="NGN">NGN – Nigerian Naira</option><option value="NOK">NOK – Norwegian Krone</option><option value="NZD">NZD – New Zealand Dollar</option><option value="PEN">PEN – Peruvian Sol</option><option value="PHP">PHP – Philippine Peso</option><option value="PKR">PKR – Pakistani Rupee</option><option value="PLN">PLN – Polish Zloty</option><option value="QAR">QAR – Qatari Riyal</option><option value="RON">RON – Romanian Leu</option><option value="RUB">RUB – Russian Ruble</option><option value="SAR">SAR – Saudi Riyal</option><option value="SEK">SEK – Swedish Krona</option><option value="SGD">SGD – Singapore Dollar</option><option value="THB">THB – Thai Baht</option><option value="TRY">TRY – Turkish Lira</option><option value="TTD">TTD – Trinidad &amp; Tobago Dollar</option><option value="UAH">UAH – Ukrainian Hryvnia</option><option value="USD">USD – US Dollar</option><option value="XCD">XCD – Eastern Caribbean Dollar</option><option value="ZAR">ZAR – South African Rand</option></select>
+          <select class="currency-select" id="fromSelect"></select>
           <button class="swap-btn" id="swapBtn" aria-label="Swap">⇄</button>
-          <select class="currency-select" id="toSelect"><option value="AED">AED – UAE Dirham</option><option value="ARS">ARS – Argentine Peso</option><option value="AUD">AUD – Australian Dollar</option><option value="BBD">BBD – Barbadian Dollar</option><option value="BRL">BRL – Brazilian Real</option><option value="BSD">BSD – Bahamian Dollar</option><option value="CAD">CAD – Canadian Dollar</option><option value="CHF">CHF – Swiss Franc</option><option value="CLP">CLP – Chilean Peso</option><option value="CNY">CNY – Chinese Yuan</option><option value="COP">COP – Colombian Peso</option><option value="CZK">CZK – Czech Koruna</option><option value="DKK">DKK – Danish Krone</option><option value="DOP">DOP – Dominican Peso</option><option value="EGP">EGP – Egyptian Pound</option><option value="EUR">EUR – Euro</option><option value="GBP">GBP – British Pound</option><option value="GHS">GHS – Ghanaian Cedi</option><option value="GYD">GYD – Guyanese Dollar</option><option value="HKD">HKD – Hong Kong Dollar</option><option value="HUF">HUF – Hungarian Forint</option><option value="IDR">IDR – Indonesian Rupiah</option><option value="ILS">ILS – Israeli Shekel</option><option value="INR">INR – Indian Rupee</option><option value="JMD">JMD – Jamaican Dollar</option><option value="JPY">JPY – Japanese Yen</option><option value="KRW">KRW – South Korean Won</option><option value="MXN">MXN – Mexican Peso</option><option value="MYR">MYR – Malaysian Ringgit</option><option value="NGN">NGN – Nigerian Naira</option><option value="NOK">NOK – Norwegian Krone</option><option value="NZD">NZD – New Zealand Dollar</option><option value="PEN">PEN – Peruvian Sol</option><option value="PHP">PHP – Philippine Peso</option><option value="PKR">PKR – Pakistani Rupee</option><option value="PLN">PLN – Polish Zloty</option><option value="QAR">QAR – Qatari Riyal</option><option value="RON">RON – Romanian Leu</option><option value="RUB">RUB – Russian Ruble</option><option value="SAR">SAR – Saudi Riyal</option><option value="SEK">SEK – Swedish Krona</option><option value="SGD">SGD – Singapore Dollar</option><option value="THB">THB – Thai Baht</option><option value="TRY">TRY – Turkish Lira</option><option value="TTD">TTD – Trinidad &amp; Tobago Dollar</option><option value="UAH">UAH – Ukrainian Hryvnia</option><option value="USD">USD – US Dollar</option><option value="XCD">XCD – Eastern Caribbean Dollar</option><option value="ZAR">ZAR – South African Rand</option><option value="AED">AED – UAE Dirham</option><option value="ARS">ARS – Argentine Peso</option><option value="AUD">AUD – Australian Dollar</option><option value="BBD">BBD – Barbadian Dollar</option><option value="BRL">BRL – Brazilian Real</option><option value="BSD">BSD – Bahamian Dollar</option><option value="CAD">CAD – Canadian Dollar</option><option value="CHF">CHF – Swiss Franc</option><option value="CLP">CLP – Chilean Peso</option><option value="CNY">CNY – Chinese Yuan</option><option value="COP">COP – Colombian Peso</option><option value="CZK">CZK – Czech Koruna</option><option value="DKK">DKK – Danish Krone</option><option value="DOP">DOP – Dominican Peso</option><option value="EGP">EGP – Egyptian Pound</option><option value="EUR">EUR – Euro</option><option value="GBP">GBP – British Pound</option><option value="GHS">GHS – Ghanaian Cedi</option><option value="GYD">GYD – Guyanese Dollar</option><option value="HKD">HKD – Hong Kong Dollar</option><option value="HUF">HUF – Hungarian Forint</option><option value="IDR">IDR – Indonesian Rupiah</option><option value="ILS">ILS – Israeli Shekel</option><option value="INR">INR – Indian Rupee</option><option value="JMD">JMD – Jamaican Dollar</option><option value="JPY">JPY – Japanese Yen</option><option value="KRW">KRW – South Korean Won</option><option value="MXN">MXN – Mexican Peso</option><option value="MYR">MYR – Malaysian Ringgit</option><option value="NGN">NGN – Nigerian Naira</option><option value="NOK">NOK – Norwegian Krone</option><option value="NZD">NZD – New Zealand Dollar</option><option value="PEN">PEN – Peruvian Sol</option><option value="PHP">PHP – Philippine Peso</option><option value="PKR">PKR – Pakistani Rupee</option><option value="PLN">PLN – Polish Zloty</option><option value="QAR">QAR – Qatari Riyal</option><option value="RON">RON – Romanian Leu</option><option value="RUB">RUB – Russian Ruble</option><option value="SAR">SAR – Saudi Riyal</option><option value="SEK">SEK – Swedish Krona</option><option value="SGD">SGD – Singapore Dollar</option><option value="THB">THB – Thai Baht</option><option value="TRY">TRY – Turkish Lira</option><option value="TTD">TTD – Trinidad &amp; Tobago Dollar</option><option value="UAH">UAH – Ukrainian Hryvnia</option><option value="USD">USD – US Dollar</option><option value="XCD">XCD – Eastern Caribbean Dollar</option><option value="ZAR">ZAR – South African Rand</option></select>
+          <select class="currency-select" id="toSelect"></select>
         </div>
-        <button class="convert-btn" id="convertBtn"><div class="btn-shine"></div>Convert Now</button>
+        <button class="convert-btn" id="convertBtn"><div class="btn-shine"></div>⚡ Convert Now</button>
         <div class="loader" id="loader"><div class="loader-bar"></div></div>
       </div>
-      <div class="error-card" id="errorCard"><div class="error-icon">⚠</div><div class="error-text" id="errorText">No internet and no cached rates available.</div></div>
-      <div class="result-card visible" id="resultCard">
+      <div class="error-card" id="errorCard"><div class="error-icon">⚠</div><div class="error-text" id="errorText"></div></div>
+      <div class="result-card" id="resultCard">
         <div class="card-label">Converted Amount</div>
-        <div class="result-amount" id="resultAmount">$67,648.00 TTD</div>
-        <div class="result-rate" id="resultRate">1 USD = 6.764800 TTD  ·  1 TTD = 0.147824 USD</div>
-        <div class="result-time" id="resultTime">Rate fetched: Thu, Apr 2, 09:54 PM</div>
+        <div class="result-amount" id="resultAmount">—</div>
+        <div class="result-rate" id="resultRate"></div>
+        <div class="result-time" id="resultTime"></div>
         <button class="copy-btn" id="copyBtn">📋 Copy Result</button>
       </div>
       <div class="card">
         <div class="card-label">Quick Select</div>
-        <div class="chips-wrap" id="chipsWrap"><button class="chip">USD</button><button class="chip">EUR</button><button class="chip">GBP</button><button class="chip">TTD</button><button class="chip">CAD</button><button class="chip">AUD</button><button class="chip">JPY</button><button class="chip">CHF</button><button class="chip">XCD</button><button class="chip">USD</button><button class="chip">EUR</button><button class="chip">GBP</button><button class="chip">TTD</button><button class="chip">CAD</button><button class="chip">AUD</button><button class="chip">JPY</button><button class="chip">CHF</button><button class="chip">XCD</button></div>
+        <div class="chips-wrap" id="chipsWrap"></div>
       </div>
     </div>
 
-    
+    <!-- HISTORY PAGE -->
     <div class="page" id="page-history">
       <div class="card" style="margin-bottom:0">
         <div class="history-header">
           <div class="card-label" style="margin:0">Conversion History</div>
           <button class="clear-btn" id="clearBtn">Clear all</button>
         </div>
-        <div class="hist-empty" id="histEmpty" style="display: none;">No conversions yet.<br>Start converting above!</div>
-        <div id="histList"><div class="hist-item"><div class="hist-icon">↗</div><div class="hist-main"><div class="hist-conv">$10,000 USD → $67,648.00 TTD</div><div class="hist-rate">Rate: 1 USD = 6.7648 TTD</div></div><div class="hist-time">09:54 PM</div></div><div class="hist-item"><div class="hist-icon">↗</div><div class="hist-main"><div class="hist-conv">$1,000 USD → $6,764.80 TTD</div><div class="hist-rate">Rate: 1 USD = 6.7648 TTD</div></div><div class="hist-time">09:54 PM</div></div><div class="hist-item"><div class="hist-icon">↗</div><div class="hist-main"><div class="hist-conv">$1,000 USD → $6,764.80 TTD</div><div class="hist-rate">Rate: 1 USD = 6.7648 TTD</div></div><div class="hist-time">09:51 PM</div></div></div>
+        <div class="hist-empty" id="histEmpty">No conversions yet.<br>Start converting above!</div>
+        <div id="histList"></div>
       </div>
     </div>
 
-    
+    <!-- ABOUT PAGE -->
     <div class="page" id="page-about">
       <div class="about-hero">
         <div class="about-logo">FX</div>
@@ -195,10 +195,10 @@ html,body{height:100%;background:var(--bg-deep);color:var(--txt-primary);font-fa
       <div class="card">
         <div class="card-label">Powered By</div>
         <div style="font-size:13px;color:var(--txt-second);line-height:1.8">
-          <div>🌐 <strong style="color:var(--txt-primary)">ExchangeRate-API v6</strong> — Live currency data</div>
-          <div>📱 <strong style="color:var(--txt-primary)">Progressive Web App (PWA)</strong> — Installable on Android</div>
-          <div>⚡ <strong style="color:var(--txt-primary)">Service Worker</strong> — Offline rate caching</div>
-          <div>🎨 <strong style="color:var(--txt-primary)">Color Psychology Design</strong> — Built to build trust</div>
+          <div><strong style="color:var(--txt-primary)">ExchangeRate-API v6</strong> — Live currency data</div>
+          <div><strong style="color:var(--txt-primary)">Progressive Web App (PWA)</strong> — Installable on Android</div>
+          <div><strong style="color:var(--txt-primary)">Service Worker</strong> — Offline rate caching</div>
+          <div><strong style="color:var(--txt-primary)">Color Psychology Design</strong> — Built to build trust</div>
         </div>
       </div>
       <div class="card">
@@ -206,7 +206,7 @@ html,body{height:100%;background:var(--bg-deep);color:var(--txt-primary);font-fa
         <div style="font-size:12px;color:var(--txt-muted);line-height:1.8">
           FXPro Mobile v1.0.0 &nbsp;·&nbsp; Built with HTML5, CSS3 &amp; JavaScript<br>
           API: ExchangeRate-API &nbsp;·&nbsp; Cache TTL: 10 minutes<br>
-          © 2026 Joshua — Academic Project
+          &copy; 2026 Joshua — Academic Project
         </div>
       </div>
     </div>
@@ -215,13 +215,13 @@ html,body{height:100%;background:var(--bg-deep);color:var(--txt-primary);font-fa
   <div class="safe-bottom"></div>
   <nav class="bottom-nav">
     <button class="nav-item active" data-page="convert" id="nav-convert">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 1v22M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path></svg>Convert
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 1v22M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>Convert
     </button>
     <button class="nav-item" data-page="history" id="nav-history">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>History
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><polyline points="12 6 12 12 16 14"/></svg>History
     </button>
     <button class="nav-item" data-page="about" id="nav-about">
-      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"></circle><line x1="12" y1="8" x2="12" y2="12"></line><line x1="12" y1="16" x2="12.01" y2="16"></line></svg>About
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>About
     </button>
   </nav>
 </div>
@@ -261,8 +261,7 @@ function populateSelects(){
 }
 
 function buildChips(){
-  chipsWrap.innerHTML=''; 
-  QUICK.forEach(code=>{
+  chipsWrap.innerHTML="";
   QUICK.forEach(code=>{
     const chip=document.createElement('button');
     chip.className='chip';chip.textContent=code;
@@ -378,13 +377,15 @@ const updateOnline=()=>offBanner.classList.toggle('show',!navigator.onLine);
 window.addEventListener('online',updateOnline);window.addEventListener('offline',updateOnline);updateOnline();
 if('serviceWorker' in navigator){window.addEventListener('load',()=>navigator.serviceWorker.register('service-worker.js').catch(e=>console.warn('SW:',e)));}
 
-populateSelects();
-chipsWrap.innerHTML='';
-buildChips();
-renderHistory();
-updateSym();
-loadTickerRates();
+if(!window.__fxproInited){
+  window.__fxproInited=true;
+  populateSelects();
+  chipsWrap.innerHTML="";
+  buildChips();
+  renderHistory();
+  updateSym();
+  loadTickerRates();
+}
 </script>
-
-
-</body></html>
+</body>
+</html>
