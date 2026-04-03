@@ -261,6 +261,8 @@ function populateSelects(){
 }
 
 function buildChips(){
+  chipsWrap.innerHTML=''; 
+  QUICK.forEach(code=>{
   QUICK.forEach(code=>{
     const chip=document.createElement('button');
     chip.className='chip';chip.textContent=code;
