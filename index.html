@@ -378,7 +378,12 @@ const updateOnline=()=>offBanner.classList.toggle('show',!navigator.onLine);
 window.addEventListener('online',updateOnline);window.addEventListener('offline',updateOnline);updateOnline();
 if('serviceWorker' in navigator){window.addEventListener('load',()=>navigator.serviceWorker.register('service-worker.js').catch(e=>console.warn('SW:',e)));}
 
-populateSelects();buildChips();renderHistory();updateSym();loadTickerRates();
+populateSelects();
+chipsWrap.innerHTML='';
+buildChips();
+renderHistory();
+updateSym();
+loadTickerRates();
 </script>
 
 
